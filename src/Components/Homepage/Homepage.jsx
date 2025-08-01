@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Notification from '../Notification/Notification'
 import Filter from '../Filter/Filter'
+import InputHandling from '../InputHandling/InputHandling'
 
 const Homepage = () => {
   return (
@@ -9,6 +10,7 @@ const Homepage = () => {
       <Navbar/>
       <Filter/>
         <Notification hasNotification={true}/>
+        <InputHandling/>
 
     </div>
   )
