@@ -1,8 +1,12 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
+import FetchData from '../FetchData/FetchData'
 const About = () => {
   return (
-    <div><Navbar/></div>
+    <div>
+    <Navbar/>
+    <FetchData/>
+    </div>
   )
 }
 
